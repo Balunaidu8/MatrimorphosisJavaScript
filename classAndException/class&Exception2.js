@@ -1,4 +1,4 @@
-class Discount {
+class TotalAmountInBag {
   price;
   minDiscount;
   constructor(initialAmount) {
@@ -27,6 +27,6 @@ class Discount {
     }
   }
 }
-let product = new Discount(10000);
+let product = new TotalAmountInBag(10000);
 product.calculateFinalPrice(10);
 product.calculateFinalPrice(4);
