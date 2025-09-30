@@ -1,5 +1,5 @@
 let default_design = {
-  colour: "Balck",
+  colour: "Blue",
   size: 20,
   height: 6,
 };
